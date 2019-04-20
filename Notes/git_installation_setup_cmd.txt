@@ -1,0 +1,36 @@
+what is version control system?
+	version control system 
+what is git
+why git
+key concept of git
+
+1> Git installation
+2> git setup
+
+C:\Users\Smita B Kumar>git config --global user.name "Smita B Kumar"
+
+C:\Users\Smita B Kumar>git config --global user.email "smitakumar@gmail.com"
+
+3> we can verify your setup
+	type .gitconfig
+
+4> now lets create a git repository folder
+	git-demo
+
+5>create new git repo now project1
+	git init project1
+
+a hidden folder create .git 
+which maitanin the tree like structure for all the document
+should not be touched
+
+6> now if you create a file in this project1 folder , let say file1.text
+goto cmd prompt and check with this cmd ->git status
+all files will be untracked files\
+that means git will not track these file 
+
+7> lets track this file -> git add file1.txt (full relative file name is required)
+
+8> let add all the files and directory -> git add .
+
+9> lets try to check the status of the file again -> git status
